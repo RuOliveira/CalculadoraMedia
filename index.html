@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Calculadora de média</title>
+    <script type="text/javascript" src="src/js/functions.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="src/img.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <section class="center">
+      <div>
+        <h1 class="page-title">CALCULADORA DE MÉDIA</h1>
+        <p class="page-subtitle">Descubra a média de cinco notas!</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+      </div>
+
+      <div>
+        <p class="subtitle">Bem-vindo(a)!</p>
+        <div class="notas">
+          <label type="radio" for="nota1">Insira a sua primeira nota:  </label>
+          <input type="number" id="nota1" name="notas"><br><br>
+          <label type="radio" for="nota2">Insira a sua segunda nota:  </label>
+          <input type="number" id="nota2" name="notas"><br><br>
+          <label type="radio" for="nota3">Insira a sua terceira nota:  </label>
+          <input type="number" id="nota3" name="notas"><br><br>
+          <label type="radio" for="nota4">Insira a sua quarta nota:  </label>
+          <input type="number" id="nota4" name="notas"><br><br>
+          <label type="radio" for="nota5">Insira a sua quinta nota:  </label>
+          <input type="number" id="nota5" name="notas"><br><br>
+          <button type="submit" onclick="calcularMedia()" class="media">Calcule a sua média</button>
+          <p id="calculoMedia"></p>
+        </div>
+      </div>
+    </section>
+    
+    <script src="src/js/functions.js" ></script>
+  </body>
+</html>

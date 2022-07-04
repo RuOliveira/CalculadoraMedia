@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+body {
+  font-family: 'Poppins', monospace;
+  background-image: url("https://i.gifer.com/Cwgf.gif");
+  background-size: 35%;
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 0 5px;
+  padding-top: 50px;
+  padding: 40px;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: #ffbb2f;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  color: #eae485;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-top: 80px;
+  padding-bottom: 10px;
+}
+
+.center {
+  color: #eeeeee;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 70%;
+  background-image: radial-gradient(circle at 50% 80%, #1c1819 0, #030202 25%, #263f3f 100%, #2f4f4f 75%, #263f3f 100%);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.notas {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#valorNota1,
+#valorNota2,
+#valorNota3 {
+  font-size: 15px;
+  color: #eae485;
+}
+
+button {
+  background: #ffbb2f;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  cursor: pointer;
+  color: #f5f3f3;
+  font-weight: bold;
+  box-shadow: 5px 5px 8px rgba(18, 18, 18, 0.44);
+  padding: 10px;
+}
+
+button:hover {
+  color: #000000;
+  font-weight: bolder; 
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  padding: 10px;
+}
+
+.page-logo {
+  width: 200px;
+  padding: 0;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#label {
+  border-radius: 10px 10px 0 0;
+}
+
+.media {
+  font-size: 14px;
+}
+
+#calculoMedia {
+  font-weight: bold;
+  color: #4e4e4e;
+  font-size: 18px;
+  padding: 15px;
+}
