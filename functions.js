@@ -31,11 +31,13 @@ function calcularMedia() {
       "Parabéns! Você foi aprovado com nota máxima! Sua média final foi " +
       calculoMedia;
   }
+  
   if (calculoMedia >= 7 && calculoMedia < 10) {
     resultado.innerHTML =
       "Parabéns! Você foi aprovado! Sua média final foi de " +
       calculoMedia.toFixed(1);
   }
+  
   if (calculoMedia < 7) {
     resultado.innerHTML =
       "Infelizmente você foi reprovado. A sua média final foi de " +
